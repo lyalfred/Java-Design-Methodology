@@ -1,0 +1,14 @@
+CarMake=Honda
+CarModel=Civic
+Option1=Transmission
+OptionValue1a=Manual
+OptionValue1b=Automatic
+Option2=Brakes
+OptionValue2a=Regular
+OptionValue2b=ABS
+Option3=Color
+OptionValue3a=Royal Blue
+OptionValue3b=Blood Red
+OptionValue3c=Metallic Silver
+OptionValue3d=Midnight Black
+OptionValue3e=Grass Green

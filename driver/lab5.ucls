@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<class-diagram version="1.1.9" icons="true" always-add-relationships="false" generalizations="true" realizations="true" 
+  associations="true" dependencies="false" nesting-relationships="true" router="FAN">  
+  <package id="1" language="java" name="adapter" project="LyAlfred_35B" file="/LyAlfred_35B/src/adapter" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="283" width="342" x="9" y="14"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="2" language="java" name="client" project="LyAlfred_35B" file="/LyAlfred_35B/src/client" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="305" width="448" x="1251" y="448"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="3" language="java" name="driver" project="LyAlfred_35B" file="/LyAlfred_35B/src/driver" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="303" width="399" x="1265" y="59"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="4" language="java" name="model" project="LyAlfred_35B" file="/LyAlfred_35B/src/model" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="465" width="444" x="450" y="344"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="5" language="java" name="scale" project="LyAlfred_35B" file="/LyAlfred_35B/src/scale" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="325" width="363" x="425" y="10"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="6" language="java" name="server" project="LyAlfred_35B" file="/LyAlfred_35B/src/server" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="465" width="442" x="849" y="42"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <package id="7" language="java" name="util" project="LyAlfred_35B" file="/LyAlfred_35B/src/util" binary="false" 
+    corner="BOTTOM_RIGHT">    
+    <position height="391" width="320" x="75" y="502"/>    
+    <display autosize="false" stereotype="true" sort-features="false" accessors="true"/>  
+  </package>  
+  <class id="8" language="java" name="scale.EditOptions" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/scale/EditOptions.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="603" y="161"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="9" language="java" name="adapter.BuildAuto" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/adapter/BuildAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="294" y="82"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="10" language="java" name="adapter.CreateAuto" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/adapter/CreateAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="78" y="121"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="11" language="java" name="adapter.ProxyAutomobile" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/adapter/ProxyAutomobile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="135" width="207" x="20" y="187"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="12" language="java" name="adapter.SelectAuto" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/adapter/SelectAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="335" y="227"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <interface id="13" language="java" name="adapter.UpdateAuto" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/adapter/UpdateAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="186" y="401"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="14" language="java" name="driver.Driver4" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/driver/Driver4.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="167" width="207" x="1398" y="136"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="15" language="java" name="exception.AutoException" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/exception/AutoException.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="127" x="911" y="815"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="16" language="java" name="exception.FixProblems" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/exception/FixProblems.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="105" width="112" x="1007" y="702"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="17" language="java" name="model.Automobile" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/model/Automobile.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="117" width="215" x="480" y="430"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="18" language="java" name="model.OptionSet" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/model/OptionSet.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="93" width="173" x="701" y="577"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="19" language="java" name="model.SelectedOptions" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/model/SelectedOptions.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="559" y="707"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="20" language="java" name="server.AutoServer" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/server/AutoServer.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1019" y="154"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="21" language="java" name="server.BuildFromProperties" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/server/BuildFromProperties.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1036" y="305"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="22" language="java" name="server.ServerAuto" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/server/ServerAuto.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1135" y="487"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="23" language="java" name="client.ClientInterface" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/client/ClientInterface.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1625" y="732"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="24" language="java" name="client.MainClient" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/client/MainClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1617" y="561"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="25" language="java" name="client.DefaultSocketClient" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/client/DefaultSocketClient.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="201" width="166" x="1317" y="510"/>    
+    <display autosize="false" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <interface id="26" language="java" name="client.ClientValues" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/client/ClientValues.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="1369" y="803"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </interface>  
+  <class id="27" language="java" name="util.FileIO" project="LyAlfred_35B" file="/LyAlfred_35B/src/util/FileIO.java" 
+    binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="148" y="693"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="28" language="java" name="util.Properties" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/util/Properties.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="378" y="919"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <class id="29" language="java" name="util.ReadSource" project="LyAlfred_35B" 
+    file="/LyAlfred_35B/src/util/ReadSource.java" binary="false" corner="BOTTOM_RIGHT">    
+    <position height="-1" width="-1" x="126" y="906"/>    
+    <display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+      sort-features="false" accessors="true" visibility="true">      
+      <attributes public="true" package="true" protected="true" private="true" static="true"/>      
+      <operations public="true" package="true" protected="true" private="true" static="true"/>    
+    </display>  
+  </class>  
+  <association id="30">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="31" name="choices"/>      
+      <multiplicity id="32" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="33">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="34" name="build"/>      
+      <multiplicity id="35" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="21" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="36">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="37" name="selectedOptions"/>      
+      <multiplicity id="38" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="19" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="39">    
+    <end type="SOURCE" refId="21" navigable="false">      
+      <attribute id="40" name="buildAuto"/>      
+      <multiplicity id="41" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="42">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <association id="43">    
+    <end type="SOURCE" refId="22" navigable="false">      
+      <attribute id="44" name="prop"/>      
+      <multiplicity id="45" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="28" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="46">    
+    <end type="SOURCE" refId="17" navigable="false">      
+      <attribute id="47" name="opset"/>      
+      <multiplicity id="48" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="18" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="49">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="50" name="a1"/>      
+      <multiplicity id="51" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="52">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <realization id="53">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <association id="54">    
+    <end type="SOURCE" refId="29" navigable="false">      
+      <attribute id="55" name="tryParse"/>      
+      <multiplicity id="56" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <association id="57">    
+    <end type="SOURCE" refId="8" navigable="false">      
+      <attribute id="58" name="buildAuto"/>      
+      <multiplicity id="59" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="9" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="60">    
+    <end type="SOURCE" refId="14"/>    
+    <end type="TARGET" refId="26"/>  
+  </realization>  
+  <generalization id="61">    
+    <end type="SOURCE" refId="22"/>    
+    <end type="TARGET" refId="25"/>  
+  </generalization>  
+  <association id="62">    
+    <end type="SOURCE" refId="11" navigable="false">      
+      <attribute id="63" name="autoHM"/>      
+      <multiplicity id="64" minimum="0" maximum="2147483647"/>    
+    </end>    
+    <end type="TARGET" refId="17" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="65">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="12"/>  
+  </realization>  
+  <realization id="66">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <association id="67">    
+    <end type="SOURCE" refId="24" navigable="false">      
+      <attribute id="68" name="fileIO"/>      
+      <multiplicity id="69" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="27" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="70">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="13"/>  
+  </realization>  
+  <realization id="71">    
+    <end type="SOURCE" refId="25"/>    
+    <end type="TARGET" refId="23"/>  
+  </realization>  
+  <association id="72">    
+    <end type="SOURCE" refId="27" navigable="false">      
+      <attribute id="73" name="tryParse"/>      
+      <multiplicity id="74" minimum="0" maximum="1"/>    
+    </end>    
+    <end type="TARGET" refId="15" navigable="true"/>    
+    <display labels="true" multiplicity="true"/>  
+  </association>  
+  <realization id="75">    
+    <end type="SOURCE" refId="8"/>    
+    <end type="TARGET" refId="10"/>  
+  </realization>  
+  <realization id="76">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <generalization id="77">    
+    <end type="SOURCE" refId="9"/>    
+    <end type="TARGET" refId="11"/>  
+  </generalization>  
+  <realization id="78">    
+    <end type="SOURCE" refId="21"/>    
+    <end type="TARGET" refId="20"/>  
+  </realization>  
+  <classifier-display autosize="true" stereotype="true" package="true" initial-value="false" signature="true" 
+    sort-features="false" accessors="true" visibility="true">    
+    <attributes public="true" package="true" protected="true" private="true" static="true"/>    
+    <operations public="true" package="true" protected="true" private="true" static="true"/>  
+  </classifier-display>  
+  <association-display labels="true" multiplicity="true"/>
+</class-diagram>
